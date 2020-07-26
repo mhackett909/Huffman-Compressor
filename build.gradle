@@ -1,0 +1,14 @@
+plugins {
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.9'
+}
+application {
+    mainClassName = "com.vapula87.huffman.Launcher"
+}
+javafx {
+    version = "14.0.1"
+    modules = [ 'javafx.controls' ]
+}
+repositories {
+    mavenCentral();
+}
